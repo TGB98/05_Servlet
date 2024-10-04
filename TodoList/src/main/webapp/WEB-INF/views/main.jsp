@@ -44,7 +44,7 @@
 	   		<tr>
 	   			<th>${vs.count}</th>
 	   			<td>
-	   				<a href="#">${todo.title}</a>
+	   				<a href="/todo/detail?index=${vs.index}">${todo.title}</a>
 	   			</td>
 	   		</tr>
 	   	</c:forEach>
