@@ -40,5 +40,12 @@ public class TodoListServiceImpl implements TodoListService {
 		return dao.todoAdd(todo);
 		
 	}
+	@Override
+	public Todo todoDetailView(int index) {
+
+		Todo todo = dao.todoDetailView(index);
+		
+		return todo;
+	}
 
 }

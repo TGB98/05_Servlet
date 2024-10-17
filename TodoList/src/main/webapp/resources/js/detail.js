@@ -1,4 +1,4 @@
-const goToList = documnet.querySelector("#goToList"); // 목록으로 버튼.
+const goToList = document.querySelector("#goToList"); // 목록으로 버튼.
 
 // 목록으로 버튼이 클릭된 경우
 goToList.addEventListener("click", () => {

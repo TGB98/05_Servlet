@@ -20,5 +20,7 @@ public interface TodoListDAO {
 
 	int todoAdd(Todo todo) throws Exception;
 
+	Todo todoDetailView(int index);
+
 	
 }
